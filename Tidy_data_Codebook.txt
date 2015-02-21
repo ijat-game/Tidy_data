@@ -1,10 +1,26 @@
 This document describes the dataset and steps to create a tidy dataset from it. 
 
 Source Data:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Variables in tidy dataset:
 
-Steps to reproduce file:
-
 Instructions list:
-Copy file run_analysis.R into data directory. 
+	Download data from website listed above. 
+	Unzip dataset into a <data> directory. 
+	Copy file run_analysis.R into <data>\"getdata-projectfiles-UCI HAR Dataset\UCI HAR Dataset" directory.
+	Set working directory to location of run_analysis.R file. 
+	Execute file to create "Tidy_data.txt" in the same directory. 
+	
+Transformations:
+	# Label columns with descriptive variable names from features.txt file. 	
+	# Gather columns with mean and std in description.
+	# defined as -mean() and -std()
+	# Summarize columns by Subject_id and Activity_id
+	# Label activities with values(WALKING,LAYING,etc) instead of id's from activity_labels.txt file.
+
+References:
+	Original data:
+	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+	Project instructions:
+	https://class.coursera.org/getdata-011/human_grading/view/courses/973498/assessments/3/submissions
