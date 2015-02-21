@@ -47,3 +47,4 @@ References:
 	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 	Project instructions:
 	https://class.coursera.org/getdata-011/human_grading/view/courses/973498/assessments/3/submissions
+
