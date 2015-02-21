@@ -1,0 +1,10 @@
+This document describes the dataset and steps to create a tidy dataset from it. 
+
+Source Data:
+
+Variables in tidy dataset:
+
+Steps to reproduce file:
+
+Instructions list:
+Copy file run_analysis.R into data directory. 
